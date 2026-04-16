@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arpan Shah — Senior iOS Application Developer with 6.5+ years of experience building robust, user-centric mobile apps using Swift, SwiftUI, and Objective-C." />
+  <meta name="keywords" content="iOS Developer, Swift, SwiftUI, Objective-C, Mobile App Development, Arpan Shah" />
+  <meta name="author" content="Arpan Shah" />
+  <meta property="og:title" content="Arpan Shah | iOS Developer" />
+  <meta property="og:description" content="Senior iOS Application Developer with 6.5+ years of experience." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Arpan Shah | iOS Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">AS<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span class="status-dot"></span> Available for new opportunities</p>
+      <h1 class="hero-name">Arpan<br /><em>Shah</em></h1>
+      <p class="hero-title">Senior iOS Application Developer</p>
+      <p class="hero-summary">6.5+ years crafting performant, elegant iOS experiences — from complex architectures to pixel-perfect interfaces, in Swift &amp; SwiftUI.</p>
+      <div class="hero-cta">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
+    <div class="hero-code-block">
+      <div class="code-header">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="code-title">AppDelegate.swift</span>
+      </div>
+      <pre class="code-snippet"><code><span class="c-kw">import</span> <span class="c-type">SwiftUI</span>
+
+<span class="c-kw">@main</span>
+<span class="c-kw">struct</span> <span class="c-type">PortfolioApp</span>: <span class="c-type">App</span> {
+  <span class="c-kw">var</span> body: <span class="c-kw">some</span> <span class="c-type">Scene</span> {
+    <span class="c-type">WindowGroup</span> {
+      <span class="c-type">ContentView</span>()
+        .environment(\.colorScheme, .dark)
+    }
+  }
+}
+
+<span class="c-comment">// 6.5+ years of Swift mastery</span>
+<span class="c-comment">// Building for iOS since 2016</span></code></pre>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label"><span>01</span> About Me</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading">Turning ideas into<br /><em>polished iOS apps</em></h2>
+          <p>I'm a Senior iOS Developer based in Mississauga, ON with over 6.5 years of hands-on experience building complex, high-quality mobile applications. My core focus has always been on user experience and code testability — because great apps don't just work, they <em>feel</em> right.</p>
+          <p>I hold a Master's in Information &amp; Communication Technology and have led development across banking, healthcare, retail, and media domains. I thrive in agile cross-functional teams and have a proven record of delivering on tight deadlines without compromising quality.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">6.5+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Companies</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Apps Shipped</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-card">
+            <div class="about-card-inner">
+              <i class="fa-brands fa-swift about-icon"></i>
+              <h3>Swift Expert</h3>
+              <p>Deep knowledge of Swift, SwiftUI, and Objective-C. SPM, Combine, async/await.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-inner">
+              <i class="fa-solid fa-layer-group about-icon"></i>
+              <h3>Architecture-First</h3>
+              <p>MVC, MVVM, VIPER, UBER RIBs — choosing the right pattern for the right problem.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-inner">
+              <i class="fa-solid fa-people-group about-icon"></i>
+              <h3>Team Leader</h3>
+              <p>Code reviews, mentoring, SOW proposals, and delivering features at scale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label"><span>02</span> Skills</div>
+      <h2 class="section-heading">Tools &amp; Technologies</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">Swift</span>
+            <span class="tag tag-primary">Objective-C</span>
+            <span class="tag">SwiftUI</span>
+            <span class="tag">Shell Scripting</span>
+            <span class="tag">C++</span>
+            <span class="tag">C</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-cube"></i> Architecture</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">MVVM</span>
+            <span class="tag tag-primary">VIPER</span>
+            <span class="tag">MVC</span>
+            <span class="tag">UBER RIBs</span>
+            <span class="tag">OOP</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-database"></i> Data &amp; Storage</h3>
+          <div class="skill-tags">
+            <span class="tag">CoreData</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Realm</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Auto Layout</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-plug"></i> Integrations</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">Firebase</span>
+            <span class="tag">Google Maps API</span>
+            <span class="tag">Apple Pay</span>
+            <span class="tag">PayPal / Braintree</span>
+            <span class="tag">Social Login</span>
+            <span class="tag">APNS</span>
+            <span class="tag">AdMob / MoPub</span>
+            <span class="tag">AWS</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-wrench"></i> Frameworks &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">UIKit</span>
+            <span class="tag">Core Bluetooth</span>
+            <span class="tag">Core Animation</span>
+            <span class="tag">Core Motion</span>
+            <span class="tag">Swinject</span>
+            <span class="tag">Carthage</span>
+            <span class="tag">Swift Package Manager</span>
+            <span class="tag">SSL Pinning</span>
+            <span class="tag">Encryption/Decryption</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-rotate"></i> DevOps &amp; Workflow</h3>
+          <div class="skill-tags">
+            <span class="tag">Xcode</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Bitbucket</span>
+            <span class="tag">JIRA</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">TestFlight</span>
+            <span class="tag">Crashlytics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-label"><span>03</span> Experience</div>
+      <h2 class="section-heading">Career Timeline</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot active"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">iOS Application Developer</h3>
+                <p class="company-name">SmartRxHub</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="duration">Dec 2021 – Present</span>
+                <span class="location"><i class="fa-solid fa-location-dot"></i> Mississauga, ON</span>
+              </div>
+            </div>
+            <ul class="achievements">
+              <li>Developed complex healthcare iOS applications aligned with client requirements.</li>
+              <li>Led code reviews and unit testing, collaborating in technical group discussions.</li>
+              <li>Guided junior developers on performance, quality, and technical design standards.</li>
+              <li>Provided ongoing support and feature development for SwiftUI-based projects.</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Swift</span>
+              <span class="tech-tag">SwiftUI</span>
+              <span class="tech-tag">Unit Testing</span>
+              <span class="tech-tag">Code Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">Sr. iOS Application Developer</h3>
+                <p class="company-name">Ivory Technolab Pvt. Ltd.</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="duration">Aug 2018 – Oct 2021</span>
+                <span class="location"><i class="fa-solid fa-location-dot"></i> Ahmedabad, India</span>
+              </div>
+            </div>
+            <ul class="achievements">
+              <li>Maintained and extended features in a large-scale Banking mobile application.</li>
+              <li>Managed iOS confluence documentation and enforced team standards.</li>
+              <li>Conducted thorough code reviews ensuring quality, re-usability, and maintainability.</li>
+              <li>Designed patches for automatic iOS update delivery of existing apps.</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Swift</span>
+              <span class="tech-tag">Objective-C</span>
+              <span class="tech-tag">Banking SDK</span>
+              <span class="tech-tag">MVVM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">iOS Application Developer</h3>
+                <p class="company-name">MaccZab Pvt. Ltd.</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="duration">Jul 2017 – Jul 2018</span>
+                <span class="location"><i class="fa-solid fa-location-dot"></i> Ahmedabad, India</span>
+              </div>
+            </div>
+            <ul class="achievements">
+              <li>Integrated Marketplace APIs including PayPal, Braintree, and Apple Pay.</li>
+              <li>Designed rich local and push notification systems.</li>
+              <li>Managed full project lifecycle using JIRA with Scrum methodology.</li>
+              <li>Collaborated with design team to deliver pixel-perfect UI/UX implementations.</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Swift</span>
+              <span class="tech-tag">Apple Pay</span>
+              <span class="tech-tag">PayPal</span>
+              <span class="tech-tag">JIRA</span>
+              <span class="tech-tag">APNS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">iOS Application Developer</h3>
+                <p class="company-name">Step2websoft</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="duration">Jun 2016 – Jul 2017</span>
+                <span class="location"><i class="fa-solid fa-location-dot"></i> Ahmedabad, India</span>
+              </div>
+            </div>
+            <ul class="achievements">
+              <li>Built custom UI components, animations, and in-app video streaming features.</li>
+              <li>Integrated Facebook SDK, Google Analytics, Fabric, and Crashlytics.</li>
+              <li>Published multiple apps to the App Store using certificates, provisioning profiles, and TestFlight.</li>
+              <li>Used Xcode Memory Graph Debugger to resolve memory leaks and reference cycles.</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Objective-C</span>
+              <span class="tech-tag">Swift</span>
+              <span class="tech-tag">Facebook SDK</span>
+              <span class="tech-tag">Crashlytics</span>
+              <span class="tech-tag">TestFlight</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-label"><span>04</span> Projects</div>
+      <h2 class="section-heading">Featured Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-solid fa-pills"></i></div>
+          <h3>SmartRxHub — Healthcare App</h3>
+          <p>A healthcare iOS application focused on medication management and patient-provider communication. Built with a SwiftUI-first approach and strict HIPAA-conscious architecture.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Swift</span><span>Firebase</span><span>MVVM</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-solid fa-building-columns"></i></div>
+          <h3>Banking Mobile Application</h3>
+          <p>Large-scale banking app with secure authentication, real-time transaction history, and financial dashboards. Maintained and extended legacy Objective-C codebase alongside modern Swift modules.</p>
+          <div class="project-tags">
+            <span>Swift</span><span>Objective-C</span><span>SSL Pinning</span><span>Encryption</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h3>Marketplace / E-Commerce App</h3>
+          <p>Full-featured marketplace app integrating multiple payment gateways, push notifications, and social logins. Delivered pixel-perfect UI in close collaboration with design team.</p>
+          <div class="project-tags">
+            <span>Apple Pay</span><span>Braintree</span><span>PayPal</span><span>APNS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-solid fa-video"></i></div>
+          <h3>Audio/Video Streaming App</h3>
+          <p>Developed in-app video streaming with synchronized audio playback, custom camera views, and image depth maps. Supported internationalization for multiple locales.</p>
+          <div class="project-tags">
+            <span>AVFoundation</span><span>Core Animation</span><span>Storyboards</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-solid fa-map-location-dot"></i></div>
+          <h3>Geofencing &amp; Maps Integration</h3>
+          <p>Location-aware app featuring Geofencing, Google Maps, Skobbler Maps, and Google Places API. Delivered real-time location triggers and rich map interactions.</p>
+          <div class="project-tags">
+            <span>Core Location</span><span>Google Maps</span><span>Skobbler</span><span>Geofencing</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-wrap"><i class="fa-brands fa-bluetooth"></i></div>
+          <h3>Core Bluetooth App</h3>
+          <p>IoT-oriented app leveraging Core Bluetooth for peripheral discovery, data exchange, and real-time device monitoring. Built with Core Motion for sensor-based interactions.</p>
+          <div class="project-tags">
+            <span>Core Bluetooth</span><span>Core Motion</span><span>Swift</span><span>MVVM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-label"><span>05</span> Education</div>
+      <h2 class="section-heading">Academic Background</h2>
+      <div class="education-grid">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <h3>Master of Information &amp; Communication Technology</h3>
+            <p class="edu-institution">Ganpat University</p>
+            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Kherva, Gujarat, India</p>
+            <span class="edu-year">2014 – 2016</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+          <div class="edu-content">
+            <h3>Bachelor of Computer Application &amp; Information Technology</h3>
+            <p class="edu-institution">Ganpat University</p>
+            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Kherva, Gujarat, India</p>
+            <span class="edu-year">2009 – 2012</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-label"><span>06</span> Contact</div>
+      <h2 class="section-heading">Let's Build Something<br /><em>Together</em></h2>
+      <p class="contact-intro">I'm open to full-time roles, contract work, and interesting iOS challenges. Drop a message and I'll get back to you promptly.</p>
+      <div class="contact-grid">
+        <a href="mailto:arpan19892@gmail.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">arpan19892@gmail.com</span>
+          </div>
+          <i class="fa-solid fa-arrow-right contact-arrow"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arpanshah19/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">arpanshah19</span>
+          </div>
+          <i class="fa-solid fa-arrow-right contact-arrow"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/arpanshah</span>
+          </div>
+          <i class="fa-solid fa-arrow-right contact-arrow"></i>
+        </a>
+        <a href="tel:4375560567" class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">(437) 556-0567</span>
+          </div>
+          <i class="fa-solid fa-arrow-right contact-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <strong>Arpan Shah</strong> · 2024</p>
+      <p class="footer-sub">iOS Developer · Mississauga, ON</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
